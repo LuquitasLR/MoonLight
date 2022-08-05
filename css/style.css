@@ -234,7 +234,7 @@ main div.texto_galeria {
    text-align: center;
 }
 
-main section {
+main section.section_galeria {
    display: flex;
    flex-wrap: wrap;
    justify-content: center;

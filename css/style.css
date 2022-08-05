@@ -260,7 +260,7 @@ background-color: blueviolet;
 
 /* Estilo nosotros */
 main.nosotros {
-   background-image: url(../Imagenes/fondo-nosotros1.jpg);
+   background-image: url(../imagenes/fondo-nosotros1.jpg);
    height: 70vw;
    background-position: center;
    background-repeat: no-repeat;
@@ -294,7 +294,7 @@ main.nosotros h2 {
 
 /* Estilo Contacto */
 main.contacto {
-   background-image: url(../Imagenes/fondo-nosotros1.jpg);
+   background-image: url(../imagenes/fondo-nosotros1.jpg);
    height: 70vw;
    display: flex;
    flex-direction: column;

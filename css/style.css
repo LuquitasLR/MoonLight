@@ -234,7 +234,7 @@ section.section_entradas {
 main div.titulo_entradas {
    color: white;
    font-family: 'montserrat', sans-serif;
-   font-size: 25px;
+   font-size: 30px;
    margin: 50px 70px 50px 70px;
    text-align: center;
 }
@@ -537,6 +537,15 @@ main.contacto form input, #mensaje {
 
    /* Fin MQ 1200px Index */
 
+    /* MQ 1200px Entradas */
+
+    main div.titulo_entradas {
+      font-size: 25px;
+      margin: 50px;
+   }
+
+    /* Fin MQ 1200px Entradas */
+
    /* MQ 1200px Galería */
 
    main div.texto_galeria h1 {
@@ -619,6 +628,49 @@ main.contacto form input, #mensaje {
    }
 
    /* Fin MQ 530px Index */
+
+   /* MQ 530px Entradas */
+
+   main div.titulo_entradas {
+      font-size: 15px;
+      margin: 30px;
+   }
+
+   main section.section_entradas article.article_entradas div.imagen_entradas {
+      height: 140px;
+      display: flex;
+      align-items: center;
+   }
+   
+   main section.section_entradas article.article_entradas div.imagen_entradas img {
+      width: 120px;
+   }
+
+   main section article div.texto_entradas h2 {
+      font-size: 15px;
+   }
+   
+   main section article div.texto_entradas h3 {
+      padding: 5px 0 0 0;
+      font-size: 10px;
+   }
+
+   main section article div.texto_entradas h4 {
+      font-size: 8px;
+   }
+
+   main section.section_entradas article.article_entradas {
+      width: 315px;
+      height: 140px;
+   }
+
+   a div.boton_compra {
+      font-size: 10px;
+      width: 140px;
+      margin-right: 5px;
+   }
+
+   /* Fin MQ 530px Entradas */
 
    /* MQ 530px Galería */
 

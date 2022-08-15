@@ -126,7 +126,7 @@ footer h3 {
 }
 
 .redes a {
-   padding: 30px 5px 0 5px;
+   padding: 12px 5px 15px 5px;
    margin-inline: 5px;
 }
 
@@ -141,7 +141,7 @@ footer h3 {
 
 /* Estilo Index */
 #Fondo_principal {
-   width: 100vw;
+   width: 99vw;
    max-width: 2000px;
 }
 
@@ -599,9 +599,21 @@ main.contacto form input, #mensaje {
 
    /* MQ 1200px Nosotros */
 
+   main.nosotros {
+      height: 100vh;
+   }
+
+   main.nosotros section.section_card {
+      margin-top: 20px;
+      overflow-y: scroll;
+      height: 400px;
+   }
+
    main.nosotros h1 {
    font-size: 25px;
    padding: 30px 100px 0 100px;
+   overflow-y: scroll;
+   height: 30vh;
    }
 
    main.nosotros h2 {
@@ -691,15 +703,17 @@ main.contacto form input, #mensaje {
 
    main section article div.texto_entradas h2 {
       font-size: 15px;
+      padding: 2px;
    }
    
    main section article div.texto_entradas h3 {
-      padding: 5px 0 0 0;
+      padding: 2px;
       font-size: 10px;
    }
 
    main section article div.texto_entradas h4 {
       font-size: 8px;
+      padding: 2px;
    }
 
    main section.section_entradas article.article_entradas {
@@ -707,7 +721,7 @@ main.contacto form input, #mensaje {
       height: 140px;
    }
 
-   a div.boton_compra {
+   main section article button.boton_compra {
       font-size: 10px;
       width: 140px;
       margin-right: 5px;

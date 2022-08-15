@@ -50,17 +50,26 @@ header nav ul {
    flex-wrap: wrap; 
 }
 
-header nav ul li {
+header nav ul li a {
    color: white;
    font-family: 'montserrat', sans-serif;
    font-weight: 600;
    font-size: 25px;
-   margin-inline: 1vh;
+   margin-inline: 1.5vh;
+
 }
 
-header nav ul a:hover {
+header nav ul li a:link {
+   text-decoration: none;
+}
+
+/* header nav ul a:hover {
    color: blueviolet;
 }
+
+header nav ul a:active {
+   color: blueviolet;
+} */
 
 #Logo {
    width: 20vw;
@@ -75,7 +84,7 @@ header nav ul a:hover {
 }*/
 
 /* Body */
-body {
+.bg-black {
    background-color: black;
 }
 
@@ -101,6 +110,7 @@ footer h3 {
    align-items: center;
    justify-content: center;
    width: 100vw;
+   max-width: 2000px;
 }
 
 .sponsor img {
@@ -261,7 +271,7 @@ main section.section_entradas article.article_entradas {
    margin: 20px;
    padding: 10px;
    font-family: 'montserrat', sans-serif;
-   font-size: 20px;
+   font-size: 15px;
    color: white;
    font-weight: 300;
    text-align: center;
@@ -270,9 +280,14 @@ main section.section_entradas article.article_entradas {
    align-items: center;
 }
 
-div.texto_entradas {
+.modal-style {
+   color: black;
+   font-weight: 600;
+}
+
+main section article div.texto_entradas {
    grid-area: texto;
-   margin: 10px;
+   margin: 5px;
    color: white;
    font-family: 'montserrat', sans-serif;
    font-size: 15px;
@@ -308,8 +323,18 @@ main section.section_entradas article.article_entradas div.imagen_entradas img {
    width: 180px;
 }
 
+main section article div.texto_entradas h2 {
+   padding: 5px 0 5px 0;
+   font-size: 25px;
+}
+
 main section article div.texto_entradas h3 {
-   padding: 10px 0 5px 0;
+   padding: 5px 0 5px 0;
+   font-size: 15px;
+}
+
+main section article div.texto_entradas h4 {
+   padding: 5px 0 5px 0;
    font-size: 15px;
 }
 
@@ -325,14 +350,14 @@ main div.texto_galeria {
    text-align: center;
 }
 
-main section.section_galeria {
+.section_galeria {
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
    margin: 30px;
 }
 
-main section .article_galeria a img {
+/* main section .article_galeria a img {
    width: 600px;
    height: 340px;
    margin: 5px;
@@ -342,9 +367,15 @@ main section .article_galeria a img {
 main section .article_galeria a:hover img {
    /*width: 660px;
    height: 374px;
-}*/
+}
 
 background-color: blueviolet;
+} */
+
+.max1400px {
+   max-width: 1400px;
+   align-items: center;
+
 }
 
 /* Fin Estilo Galería */
@@ -361,6 +392,18 @@ main.nosotros {
    min-height: 700px;
 }
 
+.section_card {
+   display: flex;
+   flex-direction: row;
+   width: 100vw;
+   margin: 0;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.card {
+   margin: 30px 20px 0 20px;
+}
 main.nosotros h1 {
    color: white;
    font-family: 'montserrat', sans-serif;

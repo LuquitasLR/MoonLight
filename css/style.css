@@ -47,18 +47,19 @@ header nav {
 
 header nav ul {
    display: flex;
-   flex-wrap: wrap; 
+   flex-wrap: wrap;
 }
 
-header nav ul li {
+header nav ul li a {
    color: white;
    font-family: 'montserrat', sans-serif;
    font-weight: 600;
    font-size: 25px;
    margin-inline: 1vh;
+   transition: all 0.2s;
 }
 
-header nav ul a:hover {
+header nav ul li a:hover  {
    color: blueviolet;
 }
 
@@ -67,6 +68,11 @@ header nav ul a:hover {
    min-width: 200px;
    max-width: 300px;
    padding: 10px;
+   transition: all 0.2s;
+}
+
+header nav a:hover img {
+   transform: scale(1.1);
 }
 
 /*.conteiner {
@@ -118,6 +124,7 @@ footer h3 {
 .redes a {
    padding: 30px 5px 0 5px;
    margin-inline: 5px;
+   transition: all 0.2s;
 }
 
 .redes svg {
@@ -289,13 +296,15 @@ a div.boton_compra {
    border: 5px;
    border-radius: 5px;
    background-color: rgb(168, 36, 146);
-   opacity: 0.6;
+   opacity: 0.9;
    font-size: 15px;
    font-weight: 600;
    width: 190px;
+   transition: 0.1s;
 }
 a:hover div.boton_compra  {
    opacity: 1;
+   transform: scale(1.05);
 }
 
 main section.section_entradas article.article_entradas div.imagen_entradas {
@@ -337,12 +346,11 @@ main section .article_galeria a img {
    height: 340px;
    margin: 5px;
    padding: 2px;
+   transition: 0.2s;
 }
 
 main section .article_galeria a:hover img {
-   /*width: 660px;
-   height: 374px;
-}*/
+   transform: scale(1.1);
 
 background-color: blueviolet;
 }

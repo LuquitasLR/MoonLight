@@ -1,0 +1,136 @@
+main.contacto {
+    background-image: url(../imagenes/fondo-nosotros1.jpg);
+    height: 70vw;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 2000px;
+    max-height: 1400px;
+    min-height: 700px;
+    
+    h1 {
+        font-family: 'montserrat', sans-serif;
+        font-size: 30px;
+        padding: 70px 0 0 0;
+        text-align: center;
+        text-shadow: 2px 2px 5px black;
+        background-color: black;
+        opacity: 0.7;
+        color: white;
+    }
+     
+    form {
+        display: flex;
+        height: 40vw;
+        width: 40vw;
+        flex-direction: column;
+        padding: 1vh;
+        background-color: black;
+        border: 2px;
+        border-radius: 2%;
+        border-color: white;
+        border-style: solid;
+        opacity: 0.9;
+        max-width: 650px;
+        max-height: 600px;
+        min-width: 500px;
+        min-height: 500px;
+        
+        label {
+            color: white;
+            font-family:'Roboto', sans-serif;
+            font-size: 20px;
+            font-weight: 300;
+        }
+
+        input {
+            font-family:'Roboto', sans-serif;
+            font-weight: 300;
+        }
+    }
+}
+ 
+
+ 
+div.formulario {
+    display: flex;
+    justify-content: center;
+    padding: 3vh 0 5vh 0;
+}
+    
+#mensaje {
+    height: 20rem;
+    font-family:'Roboto', sans-serif;
+    font-weight: 300;
+}
+ 
+#enviar {
+   height: 30px;
+   width: 80px;
+   font-family:'Roboto', sans-serif;
+   font-weight: 600;
+   margin: 1vh 0 0 0;
+   align-self: center;
+}
+
+    /* MQ 1200px Contacto */
+
+@media (max-width: 1200px) {
+
+    main.contacto {
+
+        h1 {
+            font-size: 25px;
+            padding: 30px 0 0 0;
+        } 
+
+        form label {
+            font-size: 20px;
+            input {
+                margin: 10px;
+                font-size: 20px;
+                font-weight: 600;
+                }
+         
+        }
+  
+     }
+
+     /* Fin MQ 1200px Contacto */ 
+  
+}
+
+@media (max-width: 540px) {
+
+       /* MQ 530px Contacto */
+
+   main.contacto {    
+        
+        h1 {
+            font-size: 20px;
+        } 
+
+        form {
+            height: 95vw;
+            width: 92vw;
+            opacity: 0.9;
+            min-width: 300px;
+            min-height: 350px;
+
+            label {
+                font-size: 15px;
+                
+                input {
+                    margin: 10px;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+             
+            }
+        }
+         
+    }
+    /* Fin MQ 530px Contacto */
+}

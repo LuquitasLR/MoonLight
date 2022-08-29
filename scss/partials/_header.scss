@@ -2,11 +2,7 @@ header {
     padding: 0.5vh;
 
     nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        align-items: center;
+        @include flex(row, wrap, center, space-between);
 
         a:hover {
             img {

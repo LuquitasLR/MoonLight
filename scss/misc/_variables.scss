@@ -1,0 +1,20 @@
+/*Fonts Sizes*/
+
+    $text-s: 15px;
+    $text-m: 20px;
+    $text-l: 25px;
+    $text-xl: 30px;
+
+    $font-size: ( 
+        text-s: 15px,
+        text-m: 20px,
+        text-l: 25px,
+        text-xl: 30px
+    );
+
+    @each $key, $val in $font-size {
+        
+        .#{$key} {
+            font-size: $val;
+        }
+    } 

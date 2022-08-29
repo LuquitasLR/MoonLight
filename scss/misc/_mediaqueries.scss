@@ -1,0 +1,35 @@
+/* MQ generales */
+@media (max-width: 1200px) {
+    header nav ul li {
+       font-size: 16px;
+    }
+ 
+    .redes svg {
+       width: 30px;
+ 
+    }
+ 
+    .redes a {
+       padding: 25px 5px 0 5px;
+       margin-inline: 3px;
+    }
+ 
+    footer h3 {
+       font-size: 16px
+    }
+ }
+ 
+ @media (max-width:720px) {
+   
+    header nav {
+       display: flex;
+       flex-direction: column;
+    }
+    header nav ul {
+       width: 100%;
+       justify-content: space-around;
+    }
+    
+ }
+ 
+ /* Fin MQ generales */

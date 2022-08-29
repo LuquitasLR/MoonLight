@@ -1,4 +1,11 @@
 @import './misc/normalize';
+@import './misc/variables';
+@import './misc/mixins';
+@import './misc/mediaqueries';
 @import './partials/header';
 @import './partials/footer';
+@import './views/index';
 @import './views/contacto';
+@import './views/nosotros';
+@import './views/galeria';
+@import './views/entradas';

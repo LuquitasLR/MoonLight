@@ -1,0 +1,16 @@
+Detalles de los cambios realizados:
+SEO:
+Cambie los títulos de todas las paginas, agregue descripción
+palabras clave.
+Los encabezados creo que estaban bien colocados.
+
+SASS:
+Cree variables con clases que contienen distintos tamaños de texto
+y los utilice para crear un mapa y posteriormente un each, no llegue con
+ el tiempo para aplicar las clases en el HTML, pero lo voy a hacer.
+
+Use un extend en la página "nosotros" para crear una clase y
+utilizarla en los h1 y h2 de esa página.
+
+Y por último cree un mixin con atributos de flexbox que la verdad me resulto
+muy útil y lo aplique en todas las páginas del sitio.

@@ -1,0 +1,155 @@
+/* Estilo Index */
+
+#Fondo_principal {
+    width: 100vw;
+    max-width: 2000px;
+}
+ 
+.texto_principal {
+    color: white;
+    font-family: 'montserrat', sans-serif;
+    font-size: 25px;
+    grid-area: texto;
+    @include flex(column, nowrap, center, center);
+    margin: 20vh 10vh 20vh 10vh;
+
+    h1 {
+        margin-bottom: 35px;
+    }
+
+    h2 {
+        padding: 2vw;
+    }
+
+}
+  
+p {
+    padding: 2vh;
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+}
+  
+#subtitulo_principal {
+    text-align: center;
+}
+ 
+#parrafo_principal {
+    text-align: center;
+}
+ 
+#seccion_fondo_principal {
+    grid-area: fondo;
+}
+ 
+article.articulo_video_1 {
+ align-content: center;
+}
+ 
+article.articulo_video_2 {
+    align-content: center;
+}
+ 
+#seccion_video_1 {
+    grid-area: video1;
+    @include flex(column, nowrap, center, center);
+    margin-top: 5vh;
+}
+ 
+#seccion_video_2 {
+    grid-area: video2;
+    @include flex(column, nowrap, center, center);
+    margin-top: 5vh;
+}
+ 
+#video_1, #video_2 {
+    width: 50vw;
+    height: 30vw;
+    max-width: 1000px;
+    max-height: 600px;
+}
+ 
+#parrafo_video_1, #parrafo_video_2 {
+    margin: 5vh 0 5vh 0;
+    font-size: 20px;
+    color: white;
+    height: 200px;
+    text-align: justify;
+ 
+}
+ 
+#grilla {
+    display: grid;
+    grid-template-areas:
+       "fondo fondo fondo"
+       "texto texto texto"
+       ". video1 ."
+       ". video2 .";
+    grid-template-columns: 1fr 5fr 1fr;
+    justify-items: stretch;
+    align-items: start;
+    overflow: hidden;
+}
+ 
+/* Fin estilo Index */
+ 
+ 
+ 
+@media (max-width: 1200px) {
+    
+    /* MQ 1200px Index */
+ 
+    p { 
+       font-size: 16px;
+       padding: 25px;
+    }
+ 
+    #parrafo_video_1, #parrafo_video_2 {
+       font-size: 14px;
+       overflow-y: auto;
+    }
+ 
+    .texto_principal {
+      margin: 10vw 10vw 10vw 10vw;
+      font-size: 16px;
+
+        h2 {
+            padding: 2vw;
+        }
+
+    }
+ 
+    #video_1, #video_2 {
+       min-width: 500px;
+       min-height: 300px;
+    }
+ 
+    #parrafo_video_1, #parrafo_video_2 {
+       min-width: 500px;
+    }
+ 
+    /* Fin MQ 1200px Index */
+ 
+}
+ 
+ 
+@media (max-width: 540px) {
+ 
+    /* MQ 530px Index */
+ 
+    #video_1, #video_2 {
+       width: 90vw;
+       height: 55vw;
+       min-width: 300px;
+       min-height: 150px;
+    }
+ 
+    #parrafo_video_1, #parrafo_video_2 {
+       width: 95vw;
+       min-width: 300px;
+    }
+ 
+    /* Fin MQ 530px Index */
+ 
+}
+ 
+ 

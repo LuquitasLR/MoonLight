@@ -428,8 +428,8 @@ main section.section_galeria {
   margin: 30px; }
 
 main section .article_galeria a img {
-  width: 600px;
-  height: 340px;
+  width: 540px;
+  height: 306px;
   margin: 5px;
   padding: 2px;
   transition: 0.2s; }

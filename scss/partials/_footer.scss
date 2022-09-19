@@ -1,3 +1,4 @@
+/*Footer*/
 footer {
     @include flex(column, nowrap, center, center);
     color: white;
@@ -9,7 +10,7 @@ footer {
         font-size: 25px;
     }
 }
-  
+/*Banner de sponsors*/  
 .sponsor {
     background-color: white;
     @include flex(row, wrap, center, center);
@@ -22,7 +23,7 @@ footer {
         max-width: 150px;
     }
 }
-  
+/*Redes sociales*/ 
 .redes {
     margin-top: 5vh;
     
@@ -41,7 +42,9 @@ footer {
     }
  
 }
- 
+
+/* Media Queries footer */
+
 @media (max-width: 1200px) {
     header {
         nav {

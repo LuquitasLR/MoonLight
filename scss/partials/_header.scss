@@ -1,3 +1,4 @@
+/*Header*/
 header {
     padding: 0.5vh;
 
@@ -36,12 +37,13 @@ header {
  
 #Logo {
     width: 20vw;
-    min-width: 200px;
-    max-width: 300px;
-    padding: 10px;
+    min-width: 180px;
+    max-width: 270px;
+    padding: 5px;
     transition: all 0.2s;
 }
- 
+
+/* Media Queries Header */
 
 @media (max-width: 1200px) {
     header nav ul li {

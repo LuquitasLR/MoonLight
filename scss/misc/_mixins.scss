@@ -1,3 +1,4 @@
+// Diseño de mixin con las propiedades de flexbox
 @mixin flex ($dir, $fw, $ai, $jc) {
     display: flex;
     flex-direction: $dir;
